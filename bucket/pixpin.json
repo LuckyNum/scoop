@@ -6,21 +6,13 @@
     "url": "https://download.pixpinapp.com/PixPin_1.9.5.0.zip",
     "hash": "2743f5e32a9acfd8d5e3b7a5e10c725ea21268b6fbc5c1f1ca167c7618d14007",
     "extract_dir": "PixPin",
-    "shortcuts": [
-        [
-            "PixPin.exe",
-            "PixPin"
-        ]
-    ],
-    "persist": [
-        "Config",
-        "Data",
-        "History"
-    ],
+    "shortcuts": [["PixPin.exe", "PixPin"]],
+    "persist": ["Config", "Data", "History"],
     "checkver": {
-        "regex": "a class=\"VPButton medium brand\" href=\"https://download.pixpinapp.com/PixPin_([\\d.]+).exe"
+        "url": "https://pixpin.cn/docs/",
+        "regex": "/change-log/([\\d.]+).md"
     },
     "autoupdate": {
-        "url": "https://download.pixpinapp.com/PixPin_$version.zip"
+        "url": "https://download.pixpinapp.com/PixPin_zh-cn_$version.zip"
     }
 }
