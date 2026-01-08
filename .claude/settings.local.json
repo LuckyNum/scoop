@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"D:\\\\Workspace\\\\scoop\" remote -v)",
+      "Bash(gh release view:*)",
+      "Bash(curl:*)",
+      "Bash(certutil:*)",
+      "Bash(powershell -Command \".\\\\bin\\\\test.ps1 -Filter ''cap''\")",
+      "Bash(powershell:*)"
+    ]
+  }
+}
