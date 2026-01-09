@@ -20,7 +20,7 @@
     ],
     "checkver": {
         "url": "https://api.github.com/repos/CapSoftware/Cap/releases/latest",
-        "regex": "(?s)tag_name\"\\s*:\\s*\"cap-v([\\d.]+)\".*?DOWNLOADS_JSON.*?\"windows\":\"([^\"]+)\""
+        "regex": "(?s)tag_name\"\\s*:\\s*\"cap-v([\\d.]+)\".*?\\[Windows\\]\\((https://cdn\\.crabnebula\\.app/asset/[^\"]+)\\)"
     },
     "autoupdate": {
         "url": "$match2"
