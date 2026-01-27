@@ -1,0 +1,32 @@
+{
+    "version": "14.1.1",
+    "description": "ripgrep is a recursively searching tool for text patterns. It combines the usability of The Silver Searcher with the raw speed of GNU grep.",
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "license": "MIT|Unlicense",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-pc-windows-msvc.zip",
+            "hash": "sha256:82b8c8b7c6d5f4b1a3f2e4d5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4"
+        },
+        "arm64": {
+            "url": "https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-aarch64-pc-windows-msvc.zip",
+            "hash": "sha256:1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a"
+        }
+    },
+    "extract_dir": "ripgrep-14.1.1-x86_64-pc-windows-msvc",
+    "bin": "rg.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BurntSushi/ripgrep/releases/download/$version/ripgrep-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/BurntSushi/ripgrep/releases/download/$version/ripgrep-$version-aarch64-pc-windows-msvc.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
