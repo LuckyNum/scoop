@@ -1,5 +1,5 @@
 {
-    "version": "214940",
+    "version": "217644",
     "description": "Docker Desktop. Open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud.",
     "homepage": "https://www.docker.com",
     "license": {
@@ -14,8 +14,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://desktop.docker.com/win/main/amd64/214940/Docker%20Desktop%20Installer.exe",
-            "hash": "a261ed4b05cd757e27638b1ea464807ecd84e5c5e633e6227aac454046820e7a"
+            "url": "https://desktop.docker.com/win/main/amd64/217644/Docker%20Desktop%20Installer.exe",
+            "hash": "d60bdfe852aaf1b6f8187bed88de2252c0cc827364bef3046cd7f4b8abfbc00d"
         }
     },
     "installer": {
@@ -27,7 +27,12 @@
             "--installation-dir=$dir\\docker"
         ]
     },
-    "shortcuts": [["docker\\Docker Desktop.exe", "Docker Desktop"]],
+    "shortcuts": [
+        [
+            "docker\\Docker Desktop.exe",
+            "Docker Desktop"
+        ]
+    ],
     "env_add_path": "docker\\resources\\bin",
     "checkver": {
         "url": "https://docs.docker.com/desktop/release-notes/",
