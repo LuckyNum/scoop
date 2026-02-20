@@ -1,10 +1,10 @@
 {
-    "version": "0.4.7",
+    "version": "0.4.71",
     "description": "Cap is an open-source, high-performance screen and video recording application.",
     "homepage": "https://cap.so/",
     "license": "GPL-3.0-only",
-    "url": "https://cdn.crabnebula.app/asset/01KHSKCAF5YFSBZATDCMQQABJ6",
-    "hash": "e5c2fbc5fc7b84b5789f38100d4f672329f8a602466b8a403b205a09fda67549",
+    "url": "https://cdn.crabnebula.app/asset/01KHSXFMANZQ41A5ZKR55Z5AX8",
+    "hash": "bae46649266c1c95b636178d8d49675350532af5dc33c05613c81b41ffd163d4",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\$fname\" \"$dir\" -Removal",
