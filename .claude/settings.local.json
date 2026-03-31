@@ -6,7 +6,15 @@
       "Bash(curl:*)",
       "Bash(certutil:*)",
       "Bash(powershell -Command \".\\\\bin\\\\test.ps1 -Filter ''cap''\")",
-      "Bash(powershell:*)"
+      "Bash(powershell:*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "WebSearch",
+      "Bash(ls:*)",
+      "Bash(.bincheckver.ps1 aionui)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\naionui: Update manifest to v1.8.1 with proper NSIS installer extraction\n\n- Fix hash format \\(add sha256: prefix\\)\n- Update license to Apache-2.0\n- Add installer script to extract from NSIS setup\n- Add post_install cleanup\n- Fix checkver format for autoupdate\n- Add #/dl.7z suffix for proper extraction\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git stash:*)"
     ]
   }
 }
